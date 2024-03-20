@@ -1,4 +1,4 @@
-const { createContext, useState } = require("react");
+import { createContext, useState } from "react";
 import { escuro, claro } from "../estilosGlobais";
 
 export const TemaContext = createContext({})
